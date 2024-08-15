@@ -1,0 +1,6 @@
+We need:
+    1) A folder containing test cases for errors only associated with procedures and           calls
+    2) Put everything in .zip file and submit that
+    3) DO NOT print the symbol table because you may opt for the deletion algorithm for        symbol table management
+    4) input_file.txt: Use this to test any grading test cases
+       -100 for not using "input_file.txt" as a command line argument

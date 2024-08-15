@@ -1,0 +1,23 @@
+const five = 5;
+var x, y, z;
+procedure Proc1;
+var mynum1, mynum2;
+procedure Proc2;
+const ten = 10;
+var innernum;
+begin
+write ten;
+innernum := five + ten + x;
+write innernum;
+end;
+begin
+x := 15;
+call Proc2;
+end;
+begin
+x := 7;
+if x = y * 2 then
+    x := 8
+fi;
+call Proc1;
+end.
